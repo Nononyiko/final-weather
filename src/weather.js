@@ -1,8 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
-import "./weather.css";
 
-const apiKey = "YOUR_SHECODES_WEATHER_API_KEY";
+
+const apiKey = "6f60fd1ebaeb36d3f6o4ab0088t35e2b";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity || "Pretoria");
